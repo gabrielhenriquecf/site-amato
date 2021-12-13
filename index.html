@@ -1,24 +1,191 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
-    <title>Amato Gelateria</title>
+    <link rel="shortcut icon" href="assets/images/amatogelateria-favicon.ico" type="image/x-icon">
+    <title>Amato</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <main>
-        <header>
-            <h1>EM MANUTENÇÃO</h1>
-        </header>
-        <article>
-            <h2></h2>
-            <p></p>
-        </article>
-        <article>
-            <h2></h2>
-            <p></p>
-        </article>
-    </main>
+    <header>
+        <div class="line"></div>
+        <div class="container header--area">
+            <div class="header-left">
+                <!--redirecionar para home
+                <a href="">
+                -->
+                <img src="assets/images/logo_menu.png" /></a>
+                
+            </div>
+            
+            <div class="header--right">
+                
+                <!--
+                <div class="header--search">
+                    <form>
+                        <input type="text" name="search" placeholder="Search" />
+                        <button>
+                            <img src="assets/images/loupe.png" />
+                        </button>
+                    </form>
+                </div>
+                -->
+                <div class="menu-openner" id="passar_mouse">
+                    Produtos
+                    <img src="assets/images/menu.png" alt="click">
+                    <div id="mostrar">
+                        Clique para abrir os produtos
+                    </div>
+                </div>
+                <!-- 
+                    <div class="header--menu">
+                        <img src="assets/images/menu.png" />
+                    </div>       
+                -->   
+            </div>  
+        </div>
+    </header>
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div><br>
+            <img src="assets/images/girar_dispositivo.jpg" /></a>
+
+            <div>
+                <img src="assets/images/produtos.png" alt="produtos amato gelateria">
+            </div>
+            <div class="area1--img1"> 
+                <img src="assets/images/s1.jpg" alt="gelato">
+            </div>
+            <div class="area1--img1"> 
+                <img src="assets/images/s2.jpg" alt="brownie">
+            </div>
+            <div class="area1--img1"> 
+                <img src="assets/images/s3.jpg" alt="petit-gateau">
+            </div>
+
+
+            <div class="cart--finalizar">Fechar Menu</div>      
+        </div>
+    </aside>
+    <section class="banner">
+        <div class="container">
+            <h1>Amato</h1>
+            <h2><i>passione<br> per gelato<i></h2>
+            <span>Combinação perfeita <br>de sabor e doçura.</span>
+            <div class="banner--images">
+                <img src="assets/images/c1.jpg" />
+                <img src="assets/images/c2.jpg" /><br>
+                <div class="cart--ir-google-maps">
+                    <a href="https://goo.gl/maps/3bWr7Q1Vmyr7akd96">
+                        <img src="assets/images/googlemaps_menu.png"/><br>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="area1">
+    <div class="area1--content">
+        <div class="bar"></div>
+        <h2>Gelato Artesanal com<br/>Ingredientes naturais</h2>
+
+        <div class="area1--quote"><em>"Um novo conceito de Gelateria Italiana<br> em Poços de Caldas/MG!"</em></div>
+        <div class="area1--text">Nossa missão é criar um gelato artesanal com ingredientes naturais e muito saborosos. Através de inspirações do verdadeiro Gelato Italiano, buscamos criar um gelato mais leve e menos doce, além de diversas opções zero açúcar e veganas. </div>
+
+        <button id="myBtn" class="button">Conheça nossos Sabores</button>
+    </div>  
+
+    <div class="area1--img2"></div>
+
+    <div id="myModal" class="modal">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Sabores dos nossos Gelatos</h2>
+            </div>
+
+            <div class="modal-body">
+                <h2>Cremes (base leite)</h2>
+                <p>Amato (creme de Morango com cremino de Leite Condensado por cima), Amêndoa Crocante, Bacio, Bombom de Coco, Brownie com Caramelo, Café, Camafeu, Cheesecake, Chocolate Belga, Chocolate zero, Cocco Zero, Cookies, Doce de Leite, Fior di Latte, Floresta Negra, Iogurte com Amarena, Kinder Bueno, Kinder Ovo, Mascarpone com Damasco, Ninho Trufado, Paçoca, Pistache, Raffaello, Ricota com nozes e mel, Torta de Limão.</p>
+
+                <h2>Sorbet (base água)</h2>
+                <p>Amora, Abacaxi zero, Limão Taiti, Limão Siciliano, Maracujá, Morango Zero, Nero.
+
+                </p>
+                </div>
+                <div class="modal-footer">
+
+                <h3>Sabores Mais Deliciosos e Mais Leves, só aqui na Amato</h3>
+                </div>
+             </div> 
+    
+</section>
+
+    <section class="area2">
+        <div class="area2--content">
+            <div class="bar"></div>
+            <h2>Nossa História</h2>
+
+            <div class="area2--text">Nossa paixão por gelato, ingredientes naturais e pela cultura italiana nos inspirou para a criação da Amato Gelateria. Fundada em 2021 na cidade de Poços de Caldas. Estamos localizados na Rua Rio Grande do Sul, 1384, esquina com a Rua Alagoas, no mesmo espaço que o Ruth's self-service </div>
+            <a href="https://www.instagram.com/amatogelateria?r=nametag" class="button">Instagram</a>
+        </div>
+        <div class="area2--img1"></div>
+        <div class="area2--img2"></div>
+    </section>
+    <section class="area3">
+        <div class="area3--content">
+            <div class="bar"></div>
+            <h2>Produtos<br> </h2>
+            <div class="area3--text">Gelatos, Recheios, <br>Diversos e delivery</div>
+            <div class="button-produtos">
+                <a class="a--body" href="">Abrir Produtos</a>
+
+            </div>
+            <div class="button-ifood">
+                <a class="a--body"  href="https://www.ifood.com.br/delivery/pocos-de-caldas-mg/amato-gelateria-centro?utm_medium=ReserveGoogle" class="button">Ifood</a>
+            </div>
+        </div>
+        <div class="area3--img1"></div>
+    </section>
+
+    <section class="area5">
+        <br>
+        <div class="bar"></div>
+        <h2>Localização<br> </h2>
+        <div class="google-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.753858421363!2d-46.56750683505432!3d-21.78978533559103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c9dd6cb7eac6c3%3A0x558df53db7d643f8!2sAmato%20Gelateria!5e0!3m2!1spt-BR!2sbr!4v1639006701620!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+        </div>
+        
+        <a href="https://goo.gl/maps/3bWr7Q1Vmyr7akd96" class="button">Google Maps</a><br>
+    
+        <div>
+            Venha para a Amato Gelateria<br> e descubra um novo mundo<br> do verdadeiro gelato.<br/>
+        </div>
+    </section>
+    <footer>
+        <div class="flex">
+            <span>Quer fazer uma pergunta?</span>
+            <div class="col-lg-12">
+                <div class="info__box">
+                    <a class="a--footer" href="mailto:contato@amatogelateria.com.br" target="_blank" class="info__link-coral">
+                        <span class="icon">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M26.25 14.375C26.2543 16.0249 25.8688 17.6524 25.125 19.125C24.243 20.8897 22.8872 22.374 21.2093 23.4116C19.5314 24.4493 17.5978 24.9993 15.625 25C13.9752 25.0043 12.3476 24.6189 10.875 23.875L3.75 26.25L6.125 19.125C5.38116 17.6524 4.9957 16.0249 5 14.375C5.00076 12.4022 5.55076 10.4686 6.5884 8.79072C7.62603 7.11285 9.11032 5.75699 10.875 4.87504C12.3476 4.1312 13.9752 3.74573 15.625 3.75004H16.25C18.8554 3.89378 21.3163 4.99349 23.1614 6.83861C25.0065 8.68373 26.1063 11.1446 26.25 13.75V14.375Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </span>
+                        contato@amatogelateria.com.br
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div>
+            © 2021 Amato Gelateria. Todos os direitos reservados
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
