@@ -81,10 +81,6 @@
     display:none;
 }
 
-.cart--ir-google-maps{
-    
-}
-
 .menu-openner {
     margin-right: 0px;
     font-size: 26px;
@@ -116,7 +112,10 @@ aside.show {
     padding:20px;
 }
 
-
+iframe {
+    display: block;
+    height: inherit;
+}
 
 
 
@@ -483,7 +482,7 @@ header .line {
 }
 .google-maps {
     width: 100vw;
-
+    height: 350px;
 }
 footer {
     background-color: #333;
@@ -560,7 +559,7 @@ footer {
     }
 
     .area5 {
-        height: 200px;
+        height: 600px;
     }
 
     footer {
